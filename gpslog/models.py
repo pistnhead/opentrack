@@ -8,4 +8,6 @@ class Waypoint(models.Model):
     altitude = models.FloatField()
     speed = models.FloatField()
     
-
+    def __unicode__(self):
+        return str(self.timestamp)
+    

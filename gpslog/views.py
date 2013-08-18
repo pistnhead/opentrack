@@ -12,7 +12,7 @@ def insert_log(request):
     if form.is_valid():
         form.save()
     else:
-        return HttpResponse('Yikes', status=500)
+        return HttpResponse(json.dumps(form.errors), status=500)
     
     return HttpResponse('OK')
 
