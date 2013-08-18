@@ -8,10 +8,10 @@ import json
 
 def insert_log(request):
     form = GPSLogForm(request.GET)
+    logging.info(json.dumps(request.GET))
     if form.is_valid():
         form.save()
     else:
-        logging.errror(json.dumps(request.GET))
         return HttpResponse('Yikes', status=500)
     
     return HttpResponse('OK')
