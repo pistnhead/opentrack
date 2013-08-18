@@ -27,7 +27,7 @@ you live in another city and visit parents often, the app could send them
 a heads up when you are expected to be home in next hour. It's entirely up
 to you at this point.
 
-### I just want a dump/gpx/kml… alternatives?
+### I just want a dump/gpx/kml‚Ä¶ alternatives?
 
 Since this app is made for OpenStreetMaps Android app, I'll suggest another
 Android app: look into https://github.com/mendhak/gpslogger which is available
